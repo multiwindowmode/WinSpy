@@ -43,6 +43,7 @@ WinSpy
     ├── TappingImu10
     ├── TappingImu10_phone
     └── Tapping_ImuRecorder_Attacker
+```
 
 - **ADB control** directory contains our experimental control scripts. For example, `inner_app_chat` simulates human interactions with the phone screen by controlling clicks and swipes, allowing for repeated operations to collect data.
 - **Collected Data** directory has five folders corresponding to the five types of experiments described in the paper. Unfortunately, due to the high frequency of CPU or IMU data collection, each single experiment record exceeds 100MB, which surpasses GitHub's limit. This part of the data will be made available through external links or by providing our contact information later.
