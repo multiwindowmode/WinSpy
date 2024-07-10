@@ -1,0 +1,15 @@
+adb shell input text 'https://www.google.com'
+
+adb shell i=0; while [ $i -lt 10 ]; do input keyevent 67; i=$(($i + 1)); done
+
+adb shell input keyevent 67 # DELETE
+
+adb shell input keyevent 67 keyevent 67 key event 67 key event 67 key event 67 keyevent 67 keyevent 67 key event 67 key event 67 key event 67
+
+adb shell input keyevent 66 # ENTER
+
+adb shell input swipe 2140 1000 1450 1000 3000
+
+adb shell input swipe 2000 1000 1450 1000 3000
+
+adb shell am force-stop com.jingdong.app.mall
