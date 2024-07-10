@@ -24,35 +24,6 @@ WinSpy
 │   ├── open_app_background
 │   └── open_website
 ├── Collected Data
-│   ├── App Launch
-│   ├── In-app Operations
-│   │   ├── inner_app_Alipay
-│   │   └── inner_app_WhatsApp
-│   ├── Sound Recovery
-│   ├── Tap Inference
-│   └── Website Launch
-├── Resource Competition Apps
-│   ├── profiler2cmd5
-│   └── Profiler2Cpu5
-├── Sound Recovery Android Apps
-│   ├── Pair1_ImuRecorder
-│   ├── Pair2_Speaker
-│   └── Pair3_both
-└── Tap Inference Android Apps
-    ├── TappingImu
-    ├── TappingImu10
-    ├── TappingImu10_phone
-    └── Tapping_ImuRecorder_Attacker
-
-
-WinSpy
-├── ADB control
-│   ├── inner_app_chat
-│   ├── inner_app_pay
-│   ├── open_app
-│   ├── open_app_background
-│   └── open_website
-├── Collected Data
 │   ├── App Lanuch
 │   ├── In-app Operations
 │   │   ├── inner_app_Alipay
