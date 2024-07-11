@@ -38,11 +38,12 @@ WinSpy
 │   ├── Pair1_ImuRecorder
 │   ├── Pair2_Speaker
 │   └── Pair3_both
-└── Tap Inference Android Apps
-    ├── TappingImu
-    ├── TappingImu10
-    ├── TappingImu10_phone
-    └── Tapping_ImuRecorder_Attacker
+├── Tap Inference Android Apps
+│  ├── TappingImu
+│  ├── TappingImu10
+│  ├── TappingImu10_phone
+│  └── Tapping_ImuRecorder_Attacker
+└── video recording of an experimental process.mkv
 ```
 
 - **ADB control** directory contains our experimental control scripts. For example, `inner_app_chat` simulates human interactions with the phone screen by controlling clicks and swipes, allowing for repeated operations to collect data.
@@ -50,3 +51,5 @@ WinSpy
 - **Resource Competition Apps** directory contains two folders for the two types of apps used in the Resource Competition experiment. `profiler2cmd5` refers to apps that compete for three types of threads simultaneously, while `Profiler2Cpu5` only competes for CPU threads.
 - **Sound Recovery Android Apps** directory contains three folders: an accelerometer data collection app, a voice playback app, and an app that combines both functions.
 - **Tap Inference Android Apps** directory contains four folders. Three of them are tap inference input apps with different layouts. The `Tapping_ImuRecorder_Attacker` app runs in the window as an attacking app.
+
+- **video recording** This is a video recording of an experimental process, documenting the proceedings of our 21 App launch experiments. Due to the need for privacy protection during the review phase, the video has been blurred and overexposed. We will replace it with a high-definition version once the paper is accepted.
