@@ -32,7 +32,6 @@ WinSpy
 │   ├── Tap Inference
 │   └── Website Launch
 ├── iPad App
-│  └── Contender
 ├── Resouce Contention Apps
 │   ├── profiler2cmd5
 │   └── Profiler2Cpu5
@@ -45,7 +44,6 @@ WinSpy
 │  ├── TappingImu10
 │  ├── TappingImu10_phone
 │  └── Tapping_ImuRecorder_Attacker
-
 └── video recording of an experimental process.mkv
 ```
 
