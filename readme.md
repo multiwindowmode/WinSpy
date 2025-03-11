@@ -32,7 +32,7 @@ WinSpy
 │   ├── Tap Inference
 │   └── Website Launch
 ├── iPad App
-├── Resouce Contention Apps
+├── Resource Contention Apps
 │   ├── profiler2cmd5
 │   └── Profiler2Cpu5
 ├── Sound Recovery Android Apps
