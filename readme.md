@@ -48,7 +48,7 @@ WinSpy
 ```
 
 - **ADB control** directory contains our experimental control scripts. For example, `inner_app_chat` simulates human interactions with the phone screen by controlling clicks and swipes, allowing for repeated operations to collect data.
-- **Collected Data** directory has five folders corresponding to the five types of experiments described in the paper. Unfortunately, due to the high frequency of CPU or IMU data collection, each single experiment record exceeds 100MB, which surpasses GitHub's limit. This part of the data will be made available through external links or by providing our contact information later.
+- **Collected Data** directory has five folders corresponding to the five types of experiments described in the paper. Unfortunately, due to the high frequency of CPU or IMU data collection, each single experiment record exceeds 100MB, which surpasses GitHub's limit. You can contact us via zeng.li@mail.sdu.edu.cn to get additional data.
 - **Resource Contention Apps** directory contains two folders for the two types of apps used in the Resource Contention experiment. `profiler2cmd5` refers to apps that contend for three types of threads simultaneously, while `Profiler2Cpu5` only contends for CPU threads.
 - **Sound Recovery Android Apps** directory contains three folders: an accelerometer data collection app, a voice playback app, and an app that combines both functions.
 - **Tap Inference Android Apps** directory contains four folders. Three of them are tap inference input apps with different layouts. The `Tapping_ImuRecorder_Attacker` app runs in the window as an attacking app.
@@ -112,7 +112,7 @@ The above table presents the accuracy of app launch fingerprinting attacks in id
 
 4. **Generalization ability of Winspy on iOS**:
 
-In our experiment on iOS, we used the 2021 iPad Pro (iOS 17.6.1) as the test device to assess the classification accuracy of seven websites in split-screen mode (Microsoft Edge + adversary app). However, due to the absence of convenient automation tools like the adb command, we directly allowed the adversary app to send URL open requests. Upon receiving the request, the system would automatically forward them to the default browser. Therefore, our adversary app includes two types of threads (CPU threads and statistics thread) and a URL sending thread, which randomly selects one of the seven URLs to send to the system every 10 seconds.
+In our experiment on iOS, we used the 2021 iPad Pro (iOS 17.6.1) as the test device to assess the classification accuracy of seven websites in split-screen mode (Microsoft Edge + adversary app). However, due to the absence of convenient automation tools like the adb command, we directly allowed the adversary app to send URL open requests. Upon receiving the request, the system would automatically forward them to the default browser. Therefore, our adversary app includes two types of threads (CPU threads and statistics thread) and a URL sending thread, which randomly selects one of the seven URLs to send to the system every 10 seconds. The final classification accuracy is 82.6%.
 
 5. **IMU-based sound recovery of Winspy**;
 
