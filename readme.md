@@ -53,7 +53,7 @@ WinSpy
 - **Sound Recovery Android Apps** directory contains three folders: an accelerometer data collection app, a voice playback app, and an app that combines both functions.
 - **Tap Inference Android Apps** directory contains four folders. Three of them are tap inference input apps with different layouts. The `Tapping_ImuRecorder_Attacker` app runs in the window as an attacking app.
 
-- **video recording** This is a video recording of an experimental process, documenting the proceedings of our 21 App launch experiments. Due to the need for privacy protection during the review phase, the video has been blurred and overexposed. We will replace it with a high-definition version once the paper is accepted.
+- **video recording** This is a video recording of an experimental process, documenting the proceedings of our 21 App launch experiments. Due to the need for privacy protection during the review phase, the video has been blurred and overexposed.
 
 ### Supplemental Material of the paper
 1. **How We Use ADB Commands to Automate Experiments**
